@@ -34,11 +34,13 @@ z-index: 999;
 /*LOGO: ENDS*/
 
 /*NAV: BEGINS*/
-.top-bar-right{ margin-top: 0;}
+.top-bar-right{
+margin-top: 0;}
 
 @media screen and (min-width: 40em) {
 .top-bar-right{ margin-top: 45px;}
 }
+
 .title-bar {
 background-color: rgba(8, 66, 102, 0.8);
 }
@@ -267,18 +269,38 @@ margin-bottom: 1em;
 /*ABOUT: ENDS*/
 
 
+#header1 p {
+  height: 100px;
+  margin-top: 200px;
+  margin-bottom: -30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30pt;
+  color: #084266;
+}
+/*DIVIDER: ENDS*/
+
+
+
+
 
 /*MAP & CONTACT PAGE: BEGINS*/
 #map {
   padding: 0px;
+
 }
+
+#map iframe {
+ margin-bottom: 10px;
+ width: 550px;
+ height: 500px;
+}
+
 
 #contact{
   padding: 0px;
 }
-#map iframe {
- margin-bottom: 10px;
-}
+
 label{
   font-family: 'Signika', sans-serif;
   font-weight: bold;
